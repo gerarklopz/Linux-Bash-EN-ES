@@ -10,17 +10,17 @@ La estructura de directorios de la empresa era un caos, con permisos mal asignad
 
 ## **3. Estructura de Directorios y Usuarios**
 
-
+```
 /company_IT/
 ├── departments/
-│   ├── administration/  # Accesible solo por el grupo de administración
+│   ├── administration/  # Accessible only by the administration group
 │   │   ├── contracts.xlxs
 │   │   ├── hhrr_data.docx
 │   │   └── payrolls.txt
-│   ├── external/  # Solo lectura para evitar modificaciones
+│   ├── external/  # Read-only to prevent modifications
 │   │   ├── customer_contracts.docx
 │   │   └── supplier_contracts.txt
-│   └── guest/  # Control de permisos para invitados
+│   └── guest/  # Permission control for guests
 │       ├── guest_env/
 │       │   ├── index.html
 │       │   ├── script.js
@@ -37,7 +37,7 @@ La estructura de directorios de la empresa era un caos, con permisos mal asignad
     ├── backups.zip
     ├── repositories.git
     └── total_backup_resources.zip
-
+```
 ### **Usuarios y Grupos** 
 
 - **Usuarios:** `administration`, `jr.`, `sr.` (Cada uno con sus permisos específicos).
