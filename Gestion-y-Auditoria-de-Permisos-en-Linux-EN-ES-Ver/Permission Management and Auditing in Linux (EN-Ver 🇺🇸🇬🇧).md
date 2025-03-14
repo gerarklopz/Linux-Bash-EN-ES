@@ -11,7 +11,11 @@ The company's directory structure was disorganized, with excessive permissions g
 ## **3. Directory Structure and Users**
 
 
-"""
+# **Company_IT Directory Structure**
+
+Below is the directory structure of the fictional company **Company_IT**. This structure is designed to ensure proper permission management and security.
+
+```
 /company_IT/
 ├── departments/
 │   ├── administration/  # Accessible only by the administration group
@@ -38,7 +42,7 @@ The company's directory structure was disorganized, with excessive permissions g
     ├── backups.zip
     ├── repositories.git
     └── total_backup_resources.zip
-"""
+```
 --
 
 ### **Users and Groups**
