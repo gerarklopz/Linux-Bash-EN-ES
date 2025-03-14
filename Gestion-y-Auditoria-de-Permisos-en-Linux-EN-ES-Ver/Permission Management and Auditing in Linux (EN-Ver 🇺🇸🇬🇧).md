@@ -11,6 +11,7 @@ The company's directory structure was disorganized, with excessive permissions g
 ## **3. Directory Structure and Users**
 
 
+"""
 /company_IT/
 ├── departments/
 │   ├── administration/  # Accessible only by the administration group
@@ -37,6 +38,7 @@ The company's directory structure was disorganized, with excessive permissions g
     ├── backups.zip
     ├── repositories.git
     └── total_backup_resources.zip
+"""
 --
 
 ### **Users and Groups**
